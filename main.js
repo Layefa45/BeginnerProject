@@ -20,6 +20,7 @@ inputBox.addEventListener('focus', () => {
 let myLabel = document.getElementById('myLabel');
 let message = document.getElementById('message')
 
+let counter = 0
 
 function checker(val) {
   
@@ -50,11 +51,11 @@ function recoder(num, userVal, genVal) {
   
   
   newEle1.textContent = `${num}) `
-  newEle2.textContent = `You Entered: ${userVal} | Correct Answer: ${genVal}`
+  newEle2.textContent = `You Entered: ${userVal} | Correct Answer: ${genVal}`;
   
   tab.appendChild(newEle);
   newEle.appendChild(newEle1)
   newEle.appendChild(newEle2);
   
   
-}
+};
