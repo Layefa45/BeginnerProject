@@ -1,0 +1,90 @@
+body {
+    font-size: 15pt;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f8cdda, #1c92d2);
+}
+
+.landing {
+  margin-top: 30vh;
+  text-align: center;
+}
+
+.intro {
+  text-transform: uppercase;
+  background: linear-gradient(90deg, red, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 1px white;
+  padding: 10px;
+  letter-spacing: 1px;
+  
+}
+
+.startBtn {
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: pink;
+}
+
+.startBtn:active{
+  color: black;
+  background-color: white;
+}
+
+.gamebox {
+  display: none;
+}
+
+.gamebox h1 {
+  text-transform: uppercase;
+  background: linear-gradient(90deg, red, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 1px white;
+  padding: 5px;
+  letter-spacing: 1px;
+  font-size: 22px;
+  margin: 10px 00px;
+}
+
+form {
+  text-align: center;
+}
+
+.myLabel {
+  display: inline-block;
+  margin: 5px;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 1px 1px 5px darkred;
+  word-spacing: 1px;
+}
+
+.message {
+  display: none;
+}
+
+.gamebox input {
+  border: 1px solid black;
+  outline: 2px outset white;
+  padding: 12px 24px;
+}
+.gamebox .check{
+  margin-top: 20px;
+  color: black;
+  letter-spacing: 1px;
+  padding: 10px 10px;
+  border-radius: 5px
+}
+
+.gamebox .record{
+  margin-top: 5px;
+}
+
+
