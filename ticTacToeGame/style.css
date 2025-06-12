@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.landing {
+    margin-top: 30vh;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: large;
+    color: black;
+}
+p {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 300;
+
+}
+table {
+    border-collapse: collapse;
+    display: none;
+}
+
+td {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2.5rem;
+}

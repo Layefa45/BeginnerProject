@@ -2,7 +2,7 @@ body {
     font-size: 15pt;
     margin: 0;
     height: 100vh;
-    overflow: hidden;
+    overflow: scroll;
     background: linear-gradient(135deg, #f8cdda, #1c92d2);
 }
 

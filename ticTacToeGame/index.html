@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="landing" id="landing">
+        <h1>Welcome To The Tic-Tac-Toe Web Game</h1>
+        <p>Choose Your Team</p>
+        <div class="land">
+            <span class="fig">X</span> <span class="fig"> |</span> <span class="fig"> O</span>
+        </div>
+    </div>
+    <table>
+        <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <script>
+        window.onload
+        let cells = document.querySelectorAll('td');
+        cells.forEach(element => {
+            element.addEventListener('click', () => {
+                element.textContent = 'X';
+            })
+        });
+    </script>
+</body>
+</html>
